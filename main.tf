@@ -27,3 +27,9 @@ resource "azurerm_resource_group" "rg-block" {
   
 }
 
+resource "azurerm_resource_group" "rg-block" {
+  name = "storage-rg"
+  location = "eastus"
+  
+}
+
