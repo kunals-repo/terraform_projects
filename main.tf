@@ -11,5 +11,11 @@ resource "azurerm_resource_group" "rg-block2" {
   
 }
 
+resource "azurerm_resource_group" "rg-block3" {
+  name = "vm2-rg"
+  location = "eastus"
+  
+}
+
 
 
