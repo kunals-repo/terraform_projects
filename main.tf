@@ -21,4 +21,9 @@ resource "azurerm_resource_group" "rg-block" {
   location = "eastus"
   
 }
+resource "azurerm_resource_group" "rg-block" {
+  name = "virtual_machine3-rg"
+  location = "eastus"
+  
+}
 
