@@ -42,4 +42,9 @@ resource "azurerm_resource_group" "rg-block" {
   location = "eastus"
   
 }
+resource "azurerm_resource_group" "rg-block" {
+  name = "backup2-rg"
+  location = "eastus"
+  
+}
 
