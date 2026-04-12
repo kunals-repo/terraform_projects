@@ -4,6 +4,10 @@ resource "azurerm_resource_group" "rg-block" {
   location = "eastus"
   
 }
-
+resource "azurerm_resource_group" "rg-block" {
+  name = "vnet2-rg"
+  location = "eastus"
+  
+}
 
 
